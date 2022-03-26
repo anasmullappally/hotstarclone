@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    /* background-image: url(login\ background.png); */
+    background-repeat: no-repeat;
+
+}
+.login-page img{
+    width: 100%;
+    height: 100vh ;
+
+}
+.login-logo{
+    width: 100px;
+    
+}
+

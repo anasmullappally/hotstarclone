@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotstar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="hotstar.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid" style="background-color: #0C111B;">
+            <div class="row">
+                <div class="col-md-12 ">
+
+                    <nav class=" position-fixed w-100 p-0 navbar navbar-expand navbar-light  p-0 " style="background-color:#0C111B;">
+                        <div class="container-fluid p-0">
+
+                            <a class=" nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="menu-regular-24.png" alt="">
+                            </a>
+                            <ul class=" dropdown-menu " aria-labelledby="navbarDropdown"
+                                style="background-color: #0C111B;">
+                                <li><a class="dropdown-item" href="#">Channels</a></li>
+                                <li><a class="dropdown-item" href="#">Languages</a></li>
+                                <li><a class="dropdown-item" href="#">Geners</a></li>
+                            </ul>
+
+                            <a class="navbar-brand" href="#"><img src="disney-hotstar-logo-dark.svg" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-md-none d-lg-inline-flex mt-3">
+                                    <li class="nav-item dropdown">
+                                        <a class=" nav-link " href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="color: #D0D1D4;">
+                                            TV
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                            style="background-color: #0C111B;">
+                                            <li><a class="dropdown-item" href="#">Other Shows</a></li>
+                                            <li><a class="dropdown-item" href="#">Hotstar Specials</a></li>
+                                            <li><a class="dropdown-item" href="#">Quix</a></li>
+                                            <li><a class="dropdown-item" href="#">Star Jalasha</a></li>
+                                            <li><a class="dropdown-item" href="#">StarPlus</a></li>
+                                            <li><a class="dropdown-item" href="#">Star Vijay</a></li>
+                                            <li><a class="dropdown-item" href="#">star Bharat</a></li>
+                                            <li><a class="dropdown-item" href="#">Asianet</a></li>
+                                            <li><a class="dropdown-item" href="#">more...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="color: #D0D1D4;">
+                                            Movies
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown "
+                                            style="background-color: #0C111B;">
+                                            <li><a class="dropdown-item" href="#">MOVIES</a></li>
+                                            <li><a class="dropdown-item" href="#">Hindi</a></li>
+                                            <li><a class="dropdown-item" href="#">Telugu</a></li>
+                                            <li><a class="dropdown-item" href="#">Malayalam</a></li>
+                                            <li><a class="dropdown-item" href="#">Tamil</a></li>
+                                            <li><a class="dropdown-item" href="#">Marathi</a></li>
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+                                            <li><a class="dropdown-item" href="#">Kannada</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="color: #D0D1D4;">
+                                            Sports
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                            style="background-color: #0C111B;">
+                                            <li><a class="dropdown-item" href="#">Cricket</a></li>
+                                            <li><a class="dropdown-item" href="#">Football</a></li>
+                                            <li><a class="dropdown-item" href="#">Kabaddi</a></li>
+                                            <li><a class="dropdown-item" href="#">Hocky</a></li>
+                                            <li><a class="dropdown-item" href="#">Formula E</a></li>
+                                            <li><a class="dropdown-item" href="#">Tennis</a></li>
+                                            <li><a class="dropdown-item" href="#">American Football</a></li>
+                                            <li><a class="dropdown-item" href="#">Formula 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Martial Arts</a></li>
+                                            <li><a class="dropdown-item" href="#">Athletics</a></li>
+                                            <li><a class="dropdown-item" href="#">Golf</a></li>
+                                            <li><a class="dropdown-item" href="#">Table Tennis</a></li>
+                                            <li><a class="dropdown-item" href="#">Khelo India</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" style="color: #D0D1D4;">Disney+</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <img src="Kidslogo.svg" alt=""></a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="search-box me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="button  button1 ps-2" type="submit">SUBSCRIBE</button>
+                                </form>
+                                <ul class="navbar-nav  me-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" style="color: #D0D1D4;"> <b> LOGIN</b></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid ">
+            <div id="demo" class="carousel slide w-100" data-bs-ride="carousel">
+
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner w-100 p-5" data-bs-interval="3000" style="min-width: 50rem;">
+                    <div class="carousel-item active">
+                        <img src="Firstpic.webp" alt="" class="d-block w-100 rounded" data-bs-interval="10000"
+                            style="width:100%">
+                        <div class="carousel-captionn ">
+                            <h3>Lalitham Sundaram</h3>
+                            <p>Too busy with jobs, three siblings lose their connection to their family. Reuniting for
+                                their mom's death anniversary, will her last wish bring back lost love</p>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="thirdpic.webp" alt="" class="d-block rounded" data-bs-interval="10000"
+                            style="width:100%">
+                        <div class="carousel-captionn ">
+                            <h3>Maaran</h3>
+                            <p>Madhimaaran Sathyamoorthy is an honest investigative journalist. When he uncovers a scam,
+                                the professional risks start threatening his personal happiness. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="4th pic.webp" alt="" class="d-block rounded" data-bs-interval="10000"
+                            style="width:100%">
+
+                        <div class="carousel-captionn ">
+                            <h3>Turning Red</h3>
+                            <p>Mei Lee, a confident, dorky 13-year-old, tries to balance friends, family, the chaos of
+                                adolescence and an uncontrollable ability to poof into a giant red panda. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="fifthpic.webp" alt="" class="d-block rounded" data-bs-interval="10000"
+                            style="width:100%">
+                        <div class="carousel-captionn ">
+                            <h3>Hridayam</h3>
+                            <p> From carefree college days to becoming a successful wedding photographer, this
+                                coming-of-age story depicts the colours of Arun Neelakandan's exciting life.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="sixthpic.webp" alt="" class="d-block rounded6" data-bs-interval="10000"
+                            style="width:100%">
+                        <div class="carousel-captionn ">
+                            <h3>Highlights: Hyderabad Clinch Title</h3>
+                            <p> Hyderabad FC beat Kerala Blasters FC via penalty shootout to lift their maiden Hero ISL
+                                title.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-color: transparent;"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="background-color: transparent;"></span>
+                </button>
+            </div>
+        </div>
+        <!-- <h1 class="">Latest & Trending</h1> -->
+    </section>
+
+    <h2 class="boxer1">Latest & Trending</h2>
+
+    <Section>
+        <div class="movie-lists">
+            <button class="preb"> <img src="play.png" alt=""></button>
+            <button class="nexb"> <img src="play.png" alt=""></button>
+
+            <div class="card-container w-100 px-4" style="min-width: 50rem;">
+
+
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage8.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Enternals</h5>
+                        <p class="card-text">movie descption(about movies)</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Lalitham Sundharam</h5>
+                        <p class="card-text">movie descption(about movies).</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">A Thursday</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">83</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage6.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Human</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">A Thursday</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage8.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Externals</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">83 </h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Lalitham sundaram</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">A thursday</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Turning Red</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="drawimage5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Turning Red</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </Section>
+    <h2 class=" boxer">Suggested for you</h2>
+    <section>
+
+        <div class="movie-lists">
+            <button class="preb"> <img src="play.png" alt=""></button>
+            <button class="nexb"> <img src="play.png" alt=""></button>
+
+            <div class="card-container w-100 px-4" style="min-width: 50rem;">
+
+
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Bhuj</h5>
+                        <p class="card-text">movie descption(about movies)</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Baaghi3</h5>
+                        <p class="card-text">movie descption(about movies).</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">MS Dhoni </h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Raid </h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Chichore</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec6.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Baby</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec7.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Mission Mangal</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">BHUJ</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Bhaagi 3</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">MS Dhoni</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Raid</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Chichore</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <h2 class=" boxer">Recommended Movies</h2>
+    <section>
+
+        <div class="movie-lists">
+            <button class="preb"> <img src="play.png" alt=""></button>
+            <button class="nexb"> <img src="play.png" alt=""></button>
+
+            <div class="card-container w-100 px-4" style="min-width: 50rem;">
+
+
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Bhuj</h5>
+                        <p class="card-text">movie descption(about movies)</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Baaghi3</h5>
+                        <p class="card-text">movie descption(about movies).</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">MS Dhoni </h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Raid </h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Chichore</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec6.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Baby</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec7.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Mission Mangal</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">BHUJ</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Bhaagi 3</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">MS Dhoni</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Raid</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Chichore</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <section>
+
+        <div class="movie-lists">
+            <button class="preb"> <img src="play.png" alt=""></button>
+            <button class="nexb"> <img src="play.png" alt=""></button>
+
+            <div class="card-container w-100 px-4">
+
+
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Bhuj</h5>
+                        <p class="card-text">movie descption(about movies)</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Baaghi3</h5>
+                        <p class="card-text">movie descption(about movies).</p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">MS Dhoni </h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Raid </h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Chichore</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec6.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Baby</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec7.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Mission Mangal</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">BHUJ</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Bhaagi 3</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">MS Dhoni</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Raid</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+                <div class="card m-2 side" style="max-width: 14rem;">
+                    <img src="rec5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-white">
+                        <h5 class="card-title">Chichore</h5>
+                        <p class="card-text">movie descption(about movies) </p>
+                        <a href="#" class="watch">
+                            <img src="play.png" alt="" style="width: 2rem;">
+                            Watch Movie</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-left col-xs-12 col-sm-12 col-sm-7">
+
+                <ul>
+                    <li><a href="">About Disney+ Hotstar</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+                <div class="copyright">
+                    <p>© 2022 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming
+                        logos are service marks of, and all related programming visuals
+                        and elements are the property of, Home Box Office, Inc. All rights reserved.</p>
+                </div>
+            </div>
+
+            <div class="footer-right col-xs-12 col-sm-12 col-sm-5">
+
+                <div class="app-unit col-xs-8">
+
+                    <div class="store-wrapper">
+                        <p>Disney+ Hotstar App</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="hotstar.js"></script>
+</body>
+
+
+</html>
